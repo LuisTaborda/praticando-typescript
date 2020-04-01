@@ -1,6 +1,10 @@
 import {Spacecraft, Containership} from './base-ships';
 import {MillenniumFalcon} from './starfighters';
 
+/**
+ * Para executar a aplicação, rode o comando tsc -w na pasta do projeto
+ */
+
 let ship = new Spacecraft('hyperdrive');
 ship.jumpIntoHyperspace();
 
