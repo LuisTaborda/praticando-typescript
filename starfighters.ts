@@ -1,6 +1,7 @@
 import {Spacecraft, Containership} from './base-ships';
 
 export class MillenniumFalcon extends Spacecraft implements Containership{
+    
     cargoContainers: number;
     constructor(){
         super('hyperdrive');
